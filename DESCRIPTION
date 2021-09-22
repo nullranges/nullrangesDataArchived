@@ -1,0 +1,37 @@
+Package: nullrangesData
+Title: ExperimentHub datasets for the nullranges package
+Version: 0.0.1
+Authors@R: c(
+    person("Michael", "Love",
+      role = c("aut", "cre"),
+      email = "michaelisaiahlove@gmail.com",
+      comment = c(ORCID = "0000-0001-8401-0545")),
+    person("Wancen", "Mu", role = c("aut"),
+      comment = c(ORCID = "0000-0002-5061-7581")),
+    person("Eric", "Davis", role = c("aut"),
+      comment = c(ORCID = "0000-0003-4051-3217")),
+    person("Mikhail", "Dozmorov", role = c("aut"))
+      )
+Description: Provides datasets for the nullranges package vignette,
+    in particular example datasets for DNase hypersensitivity sites
+    (DHS), CTCF binding sites, and CTCF genomic interactions.
+    These are used to demonstrate generation of null hypothesis
+    feature sets, either through block bootstrapping or matching, in
+    the nullranges vignette.  For more details, see the data object
+    man pages, and the R scripts for object construction provided
+    within the package.
+Imports:
+    utils
+Depends: R (>= 4.1.0),
+    ExperimentHub, 
+    GenomicRanges,
+    InteractionSet
+Suggests: knitr,
+    rmarkdown
+biocViews: ExperimentHub, Homo_sapiens_Data,
+    SequencingData, ChIPSeqData
+License: GPL-3
+Encoding: UTF-8
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
