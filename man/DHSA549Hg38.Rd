@@ -2,7 +2,7 @@
 % Please edit documentation in R/zzz.R
 \name{DHSA549Hg38}
 \alias{DHSA549Hg38}
-\title{DNase hypersensitivity (DHS) peaks in A549 cell example data}
+\title{DNase hypersensitivity (DHS) peaks in A549 cell example data, lifted to hg38}
 \description{
 An example dataset containing narrowPeak file from ENCODE. Retrieve
 record with \code{object[["AH22505"]]} on Annotation Hub. Construction

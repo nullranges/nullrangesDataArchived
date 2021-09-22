@@ -23,7 +23,7 @@ NULL
     ExperimentHub::createHubAccessors(pkgname, titles)
 }
 
-#' DNase hypersensitivity (DHS) peaks in A549 cell example data
+#' DNase hypersensitivity (DHS) peaks in A549 cell example data, lifted to hg38
 #'
 #' An example dataset containing narrowPeak file from ENCODE. Retrieve
 #' record with \code{object[["AH22505"]]} on Annotation Hub. Construction
