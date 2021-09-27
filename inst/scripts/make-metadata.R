@@ -19,7 +19,7 @@ meta <- data.frame(
   Maintainer = rep("Michael Love <michaelisaiahlove@gmail.com>", 3),
   RDataClass = c("GenomicRanges","GenomicRanges","InteractionSet"),
   DispatchClass = rep("Rda", 3),
-  RDataPath = file.path("nullrangesData","v1",c("DHSA549Hg38","hg19_10kb_bins","hg19_10kb_ctcfBoundBinPairs")),
+  RDataPath = file.path("nullrangesData","v1",c("DHSA549Hg38.rda","hg19_10kb_bins.rda","hg19_10kb_ctcfBoundBinPairs.rda")),
   Tags = c("wgEncode:DnaseSeq:A549 cell","DnaseSeq:CTCF:GM12878 cell","HiC:CTCF:GM12878 cell"),
   Notes = c("","",""))
 
