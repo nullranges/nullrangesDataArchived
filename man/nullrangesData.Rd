@@ -12,7 +12,7 @@ nullranges package.
 \examples{
 
 suppressPackageStartupMessages(library(GenomicRanges))
-dhs <- DHSA549Hg38
+dhs <- DHSA549Hg38()
 dhs
 
 }
