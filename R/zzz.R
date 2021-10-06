@@ -31,6 +31,12 @@ NULL
 #' object with metadata score, signal value, p/q value and peak.
 #'
 #' @name DHSA549Hg38
+#'
+#' @examples
+#'
+#' dhs <- DHSA549Hg38()
+#' dhs
+#' 
 NULL
 
 #' 10Kb bins from hg19 with GM12878 metadata annotation features
@@ -43,6 +49,11 @@ NULL
 #' presence/absence of a loop to any other bin. Function returns
 #' a GRanges object with covariate metadata
 #'
+#' @examples
+#'
+#' bins <- hg19_10kb_bins()
+#' bins
+#' 
 #' @name hg19_10kb_bins
 NULL
 
@@ -58,5 +69,10 @@ NULL
 #' exists between bin-pairs. Function returns
 #' a GInteractions object with covariate metadata
 #'
+#' @examples
+#'
+#' binPairs <- hg19_10kb_ctcfBoundBinPairs()
+#' binPairs
+#' 
 #' @name hg19_10kb_ctcfBoundBinPairs
 NULL

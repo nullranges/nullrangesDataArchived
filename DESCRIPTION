@@ -29,7 +29,7 @@ Depends: R (>= 4.1.0),
 Suggests: knitr,
     rmarkdown
 biocViews: ExperimentHub, Homo_sapiens_Data,
-    SequencingData, ChIPSeqData
+    SequencingData, ChIPSeqData, ENCODE
 License: GPL-3
 Encoding: UTF-8
 VignetteBuilder: knitr

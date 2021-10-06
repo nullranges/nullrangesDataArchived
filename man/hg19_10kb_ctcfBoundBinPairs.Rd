@@ -14,3 +14,9 @@ bin-pairs, and finally 4) whether a convergent set of CTCF sites
 exists between bin-pairs. Function returns
 a GInteractions object with covariate metadata
 }
+\examples{
+
+binPairs <- hg19_10kb_ctcfBoundBinPairs()
+binPairs
+
+}

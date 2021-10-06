@@ -9,3 +9,9 @@ record with \code{object[["AH22505"]]} on Annotation Hub. Construction
 script is in 'inst/script/DHSA549Hg38.R'. Function returns a GRanges
 object with metadata score, signal value, p/q value and peak.
 }
+\examples{
+
+dhs <- DHSA549Hg38()
+dhs
+
+}

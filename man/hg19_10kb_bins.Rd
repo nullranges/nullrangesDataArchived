@@ -12,3 +12,9 @@ signal strength (from signal tracks), and finally 5) the
 presence/absence of a loop to any other bin. Function returns
 a GRanges object with covariate metadata
 }
+\examples{
+
+bins <- hg19_10kb_bins()
+bins
+
+}
